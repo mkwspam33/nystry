@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_nystry.abc</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>abc</name>
+        <script><![CDATA[var abc = Class.create();
+abc.prototype = {
+    initialize: function() {
+    },
+
+    type: 'abc'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>matt.wilkofsky@snc</sys_created_by>
+        <sys_created_on>2020-03-13 17:21:21</sys_created_on>
+        <sys_id>13728ad9db6f0010c8c05214dc9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>abc</sys_name>
+        <sys_package display_value="nystry" source="x_snc_nystry">cb3202d9db6f0010c8c05214dc961940</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="nystry">cb3202d9db6f0010c8c05214dc961940</sys_scope>
+        <sys_update_name>sys_script_include_13728ad9db6f0010c8c05214dc9619c8</sys_update_name>
+        <sys_updated_by>matt.wilkofsky@snc</sys_updated_by>
+        <sys_updated_on>2020-03-13 17:21:21</sys_updated_on>
+    </sys_script_include>
+</record_update>
